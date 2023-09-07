@@ -1,1 +1,9 @@
 This is a ReadMe
+
+The code is on Ceaser ciphers and Vigenere ciphers
+
+code is written by Sam Bigham
+
+There code with the name Ciphers does the Caesar Cipher, which takes in an input of encode/decode and a word, and returns all possible Ceasar encryptions/decryptions of the word. The Vigenere Cipher is similar, but it takes in a keyword too which is used to encrypt/decrypt the word.
+
+I used stack overflow to help me figure out the documentation on some of the java commands, such as length, and (char)
