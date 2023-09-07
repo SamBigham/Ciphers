@@ -31,17 +31,26 @@ public class Ciphers {
         }
 
     }
-
+//pre : int x
+//pre : int y
+//post : integer between 0 and 25 signifying which letter it will be transformed to
     static int wrap(int x, int y) { //wrap functioned to be used for ceaser cipher function
 
         return ((x + y) % 26);
     }
-
+    
+//pre : int x
+//pre : int y
+//post : integer between 0 and 25 signifying which letter it will be transformed to
     static int negwrap(int x, int y) { //same wrap but added 26 for when the numbers go into the negative
 
         return ((x - y + 26) % 26);
     }
 
+
+//pre : args
+//pre : boolean _encode, which encodes the word when true and decodes when false
+//post : void, but prints out all 26 combinations of encoding/decoding the word
     public static void encode(String[] args, boolean _encode) { //encode the function
 
         java.io.PrintWriter pen;
