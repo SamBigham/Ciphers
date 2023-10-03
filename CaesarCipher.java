@@ -71,6 +71,6 @@ static int wrap(int x, int y, boolean positive) { //wrap functioned to be used f
                 pen.print(chararray[j]);
             }
             pen.println("");
-        }
+        }//for
     }//encode
 }//end of file
